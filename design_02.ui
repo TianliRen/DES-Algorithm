@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>734</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="originEncryptlabel">
+     <property name="text">
+      <string>Original Text</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="resultDecryptLabel">
+     <property name="text">
+      <string>Encoded Text</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QTextBrowser" name="resultEncryptBrowser"/>
+   </item>
+   <item row="4" column="3">
+    <widget class="QPushButton" name="decryptButton">
+     <property name="text">
+      <string>DECRYPT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3">
+    <widget class="QPushButton" name="fileDownloadButton">
+     <property name="text">
+      <string>DOWNLOAD</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="2">
+    <widget class="QLabel" name="keyDecryptLabel">
+     <property name="text">
+      <string>Key</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2" colspan="2">
+    <widget class="QLabel" name="originDecryptLabel">
+     <property name="text">
+      <string>Original Text</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="keyEncryptLabel">
+     <property name="text">
+      <string>Key</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="resultEncryptLabel">
+     <property name="text">
+      <string>Encoded Text</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2" colspan="2">
+    <widget class="QTextBrowser" name="originDecryptBrowser"/>
+   </item>
+   <item row="3" column="2" colspan="2">
+    <widget class="QTextEdit" name="keyDecryptEditer"/>
+   </item>
+   <item row="1" column="2" colspan="2">
+    <widget class="QTextEdit" name="resultDecryptEditer"/>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QTextEdit" name="originEncryptEditer"/>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QTextEdit" name="keyEncryptEditer"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="fileUploadButton">
+     <property name="text">
+      <string>FILE</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="encryptButton">
+     <property name="text">
+      <string>ENCRYPT</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
